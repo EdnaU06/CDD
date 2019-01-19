@@ -35,7 +35,7 @@ class AddFieldsToPatientsTable extends Migration
     public function down()
     {
         Schema::table('patients', function (Blueprint $table) {
-            $table->dropColumn(['name','address','city','state','age','birthday','parent','phone','sex','ocupation']);
+            $table->dropColumn(['name','address','city','state','age','birthday','parent','phone','sex','occupation']);
         });
     }
 }

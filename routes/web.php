@@ -10,10 +10,20 @@
 | contains the "web" middleware group. Now create something great!
 |
 
+*/
+Route::get('/odontograma', function () {
+    return view('odontograma');
+});
 
-Route::get('/', function () {
-    return view('welcome');
-});*/
+Route::get('canvas_odontograma', function() {
+    return view('canvas_odontograma');
+});
+Route::get('opciones_canvas', function() {
+    return view('opciones_canvas');
+});
+Route::get('odontograma_html', function() {
+    return view('odontograma_html');
+});
 
 Auth::routes(['verify' => true]);
 

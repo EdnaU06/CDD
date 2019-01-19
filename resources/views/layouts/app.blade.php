@@ -18,6 +18,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('scripts/jquery-2.1.4.js') }}" defer></script>
+    <script src="{{ asset('scripts/angular.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -26,6 +28,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/side_bar.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/estilosOdontograma.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -98,6 +101,12 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}"></script>
+    
+    <script type="text/javascript" src="{{ asset('scripts/modulos/app.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('scripts/controladores/controller.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('scripts/directivas/canvasodontograma.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('scripts/directivas/opcionescanvas.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('scripts/directivas/odontogramaGeneral.js') }}"></script>
    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
